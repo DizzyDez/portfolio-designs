@@ -144,7 +144,7 @@ nav .current {
 
 
 .fill-bg {
-  background-image: url("http://placehold.it/1698x1131");
+  background-image: url("../img/artboard.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
