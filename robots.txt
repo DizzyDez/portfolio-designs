@@ -1,0 +1,4 @@
+Sitemap: https://desireedesigns.ca/sitemap.xml
+
+User-Agent: *
+Disallow: /img

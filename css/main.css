@@ -49,11 +49,11 @@ html {
 }
 
 .logo img {
-  width: 90px;
+  height: 100px;
 }
 
 a:focus {
-  outline: 3px solid #32bfc9;
+  outline: 3px solid #333;
 }
 
 body {
@@ -78,7 +78,6 @@ header {
 
 .head-icon {
   float: right;
-  line-height: 44px;
   margin-right: 10px;
   margin-left: 10px;
   display: inline-block;
@@ -95,7 +94,8 @@ header {
 .logo {
   vertical-align: middle;
   display: block;
-  margin: auto;
+  margin: 0;
+  padding: 1em;
 
 }
 
@@ -122,6 +122,15 @@ nav a {
   font-size: medium;
 }
 
+.nav a {
+  display: block;
+}
+
+ul li :not(.disabled):hover{
+  background-color: #081a90;
+  color: #fff;
+}
+
 nav a:hover,
 nav .current {
   background-color: #333;
@@ -141,14 +150,27 @@ nav .current {
   background-position: center center;
   min-height: 435px;
 }
+
+.text-main {
+  padding: 0 3em;
+}
+
 .banner1 {
-  background: url("http://placehold.it/350x150") center center / cover no-repeat;
-  text-align: center;
+  background: url("../img/banner.jpg") left bottom no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 5em;
+  height: 600px;
+
 }
 .banner2 {
-  background: url("http://placehold.it/350x150") center center / cover no-repeat;
+  background: url("../img/banner2.jpg") center center no-repeat;
+  background-size: cover;
+  display: block;
   text-align: center;
-  color: #fff;
+  color: #333;
 }
 .banner3 {
   background-color: #000;
@@ -157,7 +179,8 @@ nav .current {
 }
 
 .section-mid{
-  background-color: #32bfc9;
+  background-color: #081a90;
+  color: #fff;
 }
 
 footer {
@@ -217,7 +240,7 @@ select {
 }
 
 
-@media only screen and (max-width: 15em) {
+@media only screen and (min-width: 25em) {
 
   .navi {
     display: inline-block;
@@ -232,11 +255,25 @@ select {
   .nav li {
     display: inline-block;
   }
+
+  .banner1 {
+    background-size: cover;
+
+  }
+}
+
+@media only screen and (min-width: 35em) {
+  .banner1 {
+    width: 1000px;
+  }
+
+}
+
+@media only screen and (max-width: 25em) {
   .logo {
     float: left;
   }
-  }
-
+}
 
 @media only screen and (max-width: 38em) {
 
@@ -248,6 +285,9 @@ select {
     padding-top: 20px;
   }
 
+  .banner2 {
+    background-size: 1000px;
+  }
 
   .logo {
     margin-right: 2em;
