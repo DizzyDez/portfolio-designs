@@ -238,7 +238,37 @@ input,
 select {
 	width: 20em;
 }
+#placeholder {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  background-size: 100% auto;
+}
 
+#placeholder:nth-child(2) {
+  background: url("../img/Movie Poster.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+
+}
+
+#placeholder:nth-child(3) {
+  background: url("../img/brosmindcartoon.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+}
+
+#placeholder:nth-child(4) {
+  background: url("../img/truck.png") 50% 50% no-repeat; /* 50% 50% centers image in div */
+}
+
+#placeholder:nth-child(5) {
+  background: url("../img/RCRLOGOinvert.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+  }
+
+#placeholder:nth-child(6) {
+  background: url("../img/teabox.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+  }
+
+#placeholder:nth-child(7) {
+  background: url("../img/iphone.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+  }
 
 @media only screen and (min-width: 25em) {
 

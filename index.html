@@ -1,45 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Desiree Designs | Ottawa Graphic Design</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="description" content="Desiree is a local Ottawa designer with killer graphic and web design skills and a passion for modern simplicity.">
-	<link href="css/grid.css" rel="stylesheet">
-	<link href="css/modules.css" rel="stylesheet">
-	<link href="css/type.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-	<link href="js/main.js" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Raleway:400,200,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-	
 ---
 layout: default
 ---
 
-<main>
-		<div class="grid">
-			<nav id="nav" class="unit gutter-1-2 xs-1 s-1 m-2-3 l-2-3 pad-t-1-2 pad-b-1-2 text-center" role="navigation">
-				<input type="checkbox" class="nav-check" id="nav-check">
-				<label class="nav-label" for="nav-check">
-					<img src="img/nav-icon.png" alt="open navigation">
-				</label>
-
-				<ul class="nav push-0 list-group navi unit-push-m-1-3">
-					<li><a class="island-1-2" href="#about">About</a></li>
-					<li><a class="island-1-2" href="#portfolio">Portfolio</a></li>
-					<li><a class="island-1-2" href="#contact">Contact</a></li>
-				</ul>
-			</nav>
-
-			<div class="title current logo banner1 img-flex unit xs-1 s-1 m-1-3 l-1-3 pad-t-1-2 pad-b-1-2">
-				<img src="img/logo-black.svg">
-			</div>
-		</div>
-
-		<div class="grid">
-			<div id="about" class="unit banner2 img-flex pad-t-2">
+<div class="grid">
+	<div id="about" class="unit banner2 img-flex pad-t-2">
 		<div class="text-main">
 			<p>Hey! I'm Desiree and I am an Illustrator, Graphic/Web Designer, specializing in layout and publication design. I live and work in Ottawa, ON, and I am in my fourth year studying Design at Algonquin College.</p>
 			<p>I have always wanted to fit in the world of design. I take apart works around me, whether they be advertisements, album covers, magazine layouts or digital illustrations. I take them apart in my mind and think about how I would recreate that look. I beleive creating these things for a living is the best time to spend on this earth.</p>
@@ -47,16 +11,16 @@ layout: default
 		<div class="pad-t-2 pad-b-2 ">
 			<a class="btn" href="#contact">Call me up</a>
 		</div>
-	</div>
 </div>
-
+</div>
+<main>
 		<div id="portfolio" class="grid grid-stretch">
 			<div class="unit xs-1 s-1 m-1-3 unit-push-m-2-3 l-1-2 unit-push-l-1-2 clearfix fill-bg">
 		&nbsp;
 			</div>
 
 			<div class="unit xs-1 s-1 m-2-3 unit-pull-m-1-3 l-1-2 unit-pull-l-1-2 island-2 section-mid">
-				<h2>Portfolio</h2>
+				<h2 id="work">Portfolio</h2>
 				<p>I have worked with a variety of different clients and media, I can work with you on whatever you might need!</p>
 					<div class="text-center">
 						<a class="btn" href="http://desc0137.myportfolio.com" aria-label="Take the tour of my projects">My Projects</a>
@@ -70,7 +34,7 @@ layout: default
 				<h2>Design is the best way to make your business shine</h2>
 				<p>Take control of your business, contact me today.</p>
 					<div class="text-center">
-						<a class="btn" href="#contact" aria-label="Email me with any questions">Call me up</a>
+						<a class="btn" href="{{site.baseurl}}/#contact" aria-label="Email me with any questions">Call me up</a>
 					</div>
 			</div>
 		</div>
@@ -78,32 +42,24 @@ layout: default
 		<div class="grid text-center island-2 prefoot">
 			<div class="unit xs-1 s-1 m-1 l-1">
 
-							<h2 id="contact">Contact</h2>
-							<div class="form">
-							 <form method="post" action="//formspree.io/jake.mm@live.ca">
-							   <fieldset>
-							    <div class="name">
-							  <label for="name">Name</label>
-							  <input type="text" name="name" id="name" required placeholder="John Smith">
-							    </div>
-							    <div class="email">
-							   <label for="email">Email address</label>
-							   <input type="email" name="_replyto" id="email" required placeholder="example@mail.com">
-							 </div>
-							 <div class="text">
-							   <label for="message">Message</label>
-							   <textarea type="text" name="message" id="message" placeholder="Your message here."></textarea>
-							 </div>
-							   <button id="submit" type="submit">Send</button>
-							   </fieldset>
-							 </form>
+				<h2 id="contact">Contact</h2>
+				<div class="form">
+				 <form method="post" action="//formspree.io/jake.mm@live.ca">
+				   <fieldset>
+				    <div class="name">
+				  <label for="name">Name</label>
+				  <input type="text" name="name" id="name" required placeholder="John Smith">
+				    </div>
+				    <div class="email">
+				   <label for="email">Email address</label>
+				   <input type="email" name="_replyto" id="email" required placeholder="example@mail.com">
+				 </div>
+				 <div class="text">
+				   <label for="message">Message</label>
+				   <textarea type="text" name="message" id="message" placeholder="Your message here."></textarea>
+				 </div>
+				   <button id="submit" type="submit">Send</button>
+				   </fieldset>
+				 </form>
 
 	</main>
-	<div class="head-icon pad-b">
-			<a href="https://www.facebook.com/deschenesdesign?ref=aymt_homepage_panel"><img class="contactbtns" src="img/FB-f-Logo__blue_50.png" alt="Link to my Facebook Page"></a>
-			|<a href="https://twitter.com/deschenesdesign"><img class="contactbtns" src="img/download.png" alt="Link to my Twitter Page"></a>
-			|<a href="https://www.behance.net/DesireeDeschenes"><img class="contactbtns" src="img/be-download.png" alt="Link to my Behance Page"></a>
-	</div>
-</body>
-<footer>Copyright 2015 by Desiree Deschenes.</footer>
-</html>
