@@ -1,0 +1,16 @@
+______________________
+TEAM
+This website was hand crafted by Desiree Deschenes, Designer and founder of Desiree Designs.
+
+______________________
+SPECIAL THANKS
+Thomas J Bradley and Eric Adamski for making this designer into a coder as well.
+
+______________________
+TECHNOLOGY
+
+Learn the Web - Coding tips and tricks
+learn-the-web.algonquindesign.ca/
+
+Github - Code Collaboration
+github.ca/

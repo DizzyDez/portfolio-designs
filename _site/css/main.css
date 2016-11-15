@@ -1,0 +1,352 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font: normal 100%/1.3 sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+.navi {
+  display: none;
+
+}
+.nav-check:checked ~ .nav {
+	display: block;
+}
+
+.nav-check {
+	position: absolute;
+	top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.nav-label img{
+  width: 100%;
+  display: inline-block;
+
+}
+
+.logo img {
+  height: 100px;
+}
+
+a:focus {
+  outline: 3px solid #333;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+
+header {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.top-info {
+  border-bottom: 1px solid #636363;
+  padding: 1em;
+
+}
+
+.head-icon {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.contactbtns {
+  width: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 44px;
+  vertical-align: middle;
+}
+
+.logo {
+  vertical-align: middle;
+  display: block;
+  margin: 0;
+  padding: 1em;
+
+}
+
+nav {
+  text-align: center;
+  display: inline-block;
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+nav li {
+  text-align: right;
+}
+
+nav a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.nav a {
+  display: block;
+}
+
+ul li :not(.disabled):hover{
+  background-color: #081a90;
+  color: #fff;
+}
+
+nav a:hover,
+nav .current {
+  background-color: #333;
+  color: #fff;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+
+.fill-bg {
+  background-image: url("http://placehold.it/1698x1131");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 435px;
+}
+
+.text-main {
+  padding: 0 3em;
+}
+
+.banner1 {
+  background: url("../img/banner.jpg") left bottom no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 5em;
+  height: 600px;
+
+}
+.banner2 {
+  background: url("../img/banner2.jpg") center center no-repeat;
+  background-size: cover;
+  display: block;
+  text-align: center;
+  color: #333;
+}
+.banner3 {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+
+.section-mid{
+  background-color: #081a90;
+  color: #fff;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	font-size: x-small;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
+
+  float: right;
+}
+
+.name {
+	margin-bottom: 30px;
+	margin-left: 10%;
+}
+.email {
+	margin-bottom: 30px;
+	margin-left: 10%;
+}
+
+.text {
+	margin-left: 10%;
+}
+
+.form {
+	font-style: normal;
+	font-weight: 400;
+}
+
+label {
+	display: block;
+}
+
+textarea {
+	height: 10em;
+	min-width: 20em;
+}
+
+#submit {
+	margin-top: 30px;
+	margin-left: 50%;
+	padding: .25em .5em;
+	border-radius: 5px;
+}
+
+
+input,
+select {
+	width: 20em;
+}
+#placeholder {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  background-size: 100% auto;
+}
+
+#placeholder:nth-child(2) {
+  background: url("../img/Movie Poster.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+
+}
+
+#placeholder:nth-child(3) {
+  background: url("../img/brosmindcartoon.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+}
+
+#placeholder:nth-child(4) {
+  background: url("../img/truck.png") 50% 50% no-repeat; /* 50% 50% centers image in div */
+}
+
+#placeholder:nth-child(5) {
+  background: url("../img/RCRLOGOinvert.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+  }
+
+#placeholder:nth-child(6) {
+  background: url("../img/teabox.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+  }
+
+#placeholder:nth-child(7) {
+  background: url("../img/iphone.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+  }
+
+@media only screen and (min-width: 25em) {
+
+  .navi {
+    display: inline-block;
+  }
+  #nav .nav-label {
+    display: none;
+  }
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .banner1 {
+    background-size: cover;
+
+  }
+}
+
+@media only screen and (min-width: 35em) {
+  .banner1 {
+    width: 1000px;
+  }
+
+}
+
+@media only screen and (max-width: 25em) {
+  .logo {
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+  .head-icon{
+    padding-top: 20px;
+  }
+
+  .banner2 {
+    background-size: 1000px;
+  }
+
+  .logo {
+    margin-right: 2em;
+  }
+}
+
+@media only screen and (max-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    text-align: left;
+  }
+
+  h1,
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+  }
+
+}
