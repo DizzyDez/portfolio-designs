@@ -18,6 +18,9 @@ html {
   box-sizing: inherit;
 }
 
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+}
 
 .navi {
   display: none;
@@ -142,6 +145,9 @@ nav .current {
   width: 100%;
 }
 
+.center-view {
+  padding: 3em;
+}
 
 .fill-bg {
   background-image: url("../img/portfolio.png");
