@@ -45,6 +45,10 @@ h1, h2 {
   top: 20px;
 }
 
+.top-space {
+  margin-top: 3em;
+}
+
 .nav-label img{
   width: 100%;
   display: inline-block;
