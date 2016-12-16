@@ -250,11 +250,11 @@ main .work{
   margin-right: 2em;
 }
 
-#placeholder {
+#placeholder img{
   width: 250px;
   height: 250px;
   margin: 10px;
-  background-size: 100% auto;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 
