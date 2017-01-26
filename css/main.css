@@ -166,17 +166,19 @@ nav .current {
 }
 
 .banner1 {
-  background: url("../img/banner 2.jpg") left bottom no-repeat;
+  background: url("../img/banner-2.jpg") left bottom no-repeat;
   background-size: cover;
-  margin: 0;
+  margin: 0 auto;
   overflow: hidden;
   display: block;
   padding-bottom: 5em;
   height: 600px;
+  width: 100vw;
+  color: #f9f9fd;
 
 }
 .banner2 {
-  background: url("../img/banner-2.jpg") center center no-repeat;
+  background: url("../img/banner2.jpg") center center no-repeat;
   background-size: cover;
   display: block;
   text-align: center;
