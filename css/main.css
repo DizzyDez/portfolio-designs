@@ -172,6 +172,7 @@ nav .current {
   overflow: hidden;
   display: block;
   padding-bottom: 5em;
+  height: 600px;
   width: 100vw;
   color: #f9f9fd;
 
